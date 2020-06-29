@@ -25,7 +25,7 @@ public class FacebookLoginTestCase extends Library {
 	@Test
 	public void login() {
 		lpage=new FacebookLoginPage(driver);
-		lpage.login("sravanthi","abc1");
+		lpage.login("sravanthi123343","abc1");
 		
 		
 	}

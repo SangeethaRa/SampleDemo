@@ -15,7 +15,7 @@ public class FacebookRegTestCase extends Library {
 	SeleniumUtil util;
 	
 	@BeforeClass
-	
+	//Launchapplicaiton
 	public void stratUp() throws IOException {
 		launchApplication();
 	}

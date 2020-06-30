@@ -13,7 +13,7 @@ public class FacebookLoginPage {
 	@FindBy(id="pass")
 	WebElement pwdElement;
 	//@FindBy(xpath="//*[@id='u_0_4']")
-	@FindBy(id="u_0_4")
+	@FindBy(id="loginbutton")
 	WebElement Loginbutton;
 	
 	public FacebookLoginPage(WebDriver driver) {

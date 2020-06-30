@@ -33,7 +33,7 @@ public class FacebookLoginTestCase extends Library {
 	public void close() throws IOException {
 		util = new SeleniumUtil(driver);
 		util.screenshot("src/test/resources/Screenshots/facebook.png");
-		quit();
+		this.quit();
 		
 	}
 
